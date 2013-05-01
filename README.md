@@ -5,13 +5,15 @@ Drinking bird model using three.js
 
 To use the drinkBird.js file:
 
-  var bird = new DrinkBird(hasHair, hasBowTie);   //hasHair and hasBowTie are booleans
-  
-  bird.bowTieColor = "0xff00aa";		//set the colors before calling createBird (optional)
-  
-	bird.createBird();                
-	
+<pre> 
+  //hasHair and hasBowTie are booleans
+  var bird = new DrinkBird(hasHair, hasBowTie);   
+  //set the colors before calling createBird (optional)  
+  bird.bowTieColor = "0xff00aa";		  
+  bird.createBird();                	
   scene.add(bird.model);
+
+</pre>
 
 To run the example bird.html file you will also need : 
 
